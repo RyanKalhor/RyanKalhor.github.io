@@ -75,12 +75,16 @@ nav img{
   font-size: 25px;
   position: relative;
   cursor: pointer;
+  transition: 0.8s;
 }
 .about-btn:hover{
   border: 1px solid #21A19A;
   background: #21A19A;
-  opacity: 0.8;
-  transition: 0.8s
+  opacity: 0.5;
+  transition: 0.8s;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 .twitter{
   color: #00acee;
