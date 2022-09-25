@@ -260,3 +260,20 @@ p{
   padding-left: 1.2%;
   font-size: 140%;
 }
+.Projects{
+  width: 100%;
+  margin-top: 5%;
+}
+.Projectsheader h2{
+  color: #59C4BE;
+  font-size: 140%;
+  margin-bottom: 3%;
+}
+.Retractablereel{
+  margin-left: 10%;
+  width: 35%;
+}
+.SPC{
+  margin-left: 10%;
+  width: 35%;
+}
