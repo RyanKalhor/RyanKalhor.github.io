@@ -270,7 +270,7 @@ p{
   margin-bottom: -1%;
 }
 
-.image-grid {
+.image-grid{
 --gap: 3%;
 --num-cols: 4;
 --row-height: 30%;
