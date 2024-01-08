@@ -16,12 +16,12 @@ html{
 }
 nav{
   display: flex;
-  padding: 2% 2%;
+  padding: 0% 0%;
   justify-content: space-between;
   align-items: center;
 }
 nav img{
-  width:40%;
+  width:5rem;
 }
 .nav-links{
   flex: 1;
@@ -30,13 +30,13 @@ nav img{
 .nav-links ul li{
   list style: none;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 0.5rem 0.75rem;
   position: relative;
 }
 .nav-links ul li a{
   color: #fff;
   text-decoration: none;
-  font-size:25px;
+  font-size: 1.563rem;
 }
 .nav-links ul li::after{
   content: "";
@@ -57,18 +57,18 @@ body {
   width: 90%;
   color: #fff;
   position: absolute;
-  top: 45%;
+  top: 48%;
   left 50%;
   transform: translate(7%,-40%);
   text-align: center;
 }
 .text-box h1{
-  font-size: 400%;
+  font-size: 3rem;
   font-weight: 600;
 }
 .text-box p{
-  margin: 10px 0 25px;
-  font-size:25px;
+  margin: 0.625rem 0 1.563rem;
+  font-size:1.563rem;
   color:#fff
 }
 .about-btn{
@@ -156,7 +156,7 @@ body {
     transition: 0.8s;
 }
 .github{
-    color: #171515;
+    color: #8931A8;
     font-size: 40px;
     width: 150px;
     transition: 0.8s;
@@ -166,7 +166,7 @@ body {
     top: 25px;
 }
 .github:hover{
-    color: #2e2c2c;
+    color: #66257D;
     font-size: 30px;
     width: 150px;
     transition: 0.8s;
@@ -347,4 +347,93 @@ margin-right: 5%;
   height: 100%;
   border-radius: 5px;
   object-fit: cover;
+}
+@media(max-width:768px){
+  .photo-gallery{
+    flex-direction: column;
+  }
+}
+/* For screens 768px or less */
+@media (max-width: 800px) {
+  .photo-gallery{
+    flex-direction: column;
+  }
+  .FLFP,
+  .ME18,
+  .Watersideheights {
+    width: 80%; /* Adjust the width to take up the full width */
+    margin-left: 10%; /* Remove left margin */
+    ;
+  }
+  .FLF,
+  .ME,
+  .PDR {
+    width: 80%; /* Adjust the width to take up the full width */
+    margin: 5% 0% 10% 10%; /* Add some margin for better spacing */
+
+  }
+  /* Ensure images are displayed above the text */
+  .FLF,
+  .ME,
+  .PDR {
+    order: 1; /* Move text below image */
+  }
+  /* FLF sizing change */
+  .FLF h2 {
+    font-size: 160%; 
+  }
+  .FLF h3 {
+    font-size: 130%; 
+  }
+  .FLF h4 {
+    font-size: 100%; 
+  }
+  .FLF p {
+    font-size: 90%; 
+  }
+  /* ME sizing change */
+  .ME h2 {
+    font-size: 160%; 
+  }
+  .ME h3 {
+    font-size: 130%; 
+  }
+  .ME h4 {
+    font-size: 100%; 
+  }
+  .ME p {
+    font-size: 90%; 
+  }
+  /* PDR sizing change */
+  .PDR h2 {
+    font-size: 160%; 
+  }
+  .PDR h3 {
+    font-size: 130%; 
+  }
+  .PDR h4 {
+    font-size: 100%; 
+  }
+  .PDR p {
+    font-size: 90%; 
+  }
+  /* Projects margin top sizing change */
+  .Projects{
+    margin-top: 0%;
+  }
+  /* About me */
+  .About-me{
+    width: 80%;
+    font-size: 90%;
+  }
+  /* Name title change */
+  .text-box h1{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .text-box p{
+    margin: 0.625rem 0 1.563rem;
+    font-size:1.4rem;
+    color:#fff
+  }
 }
