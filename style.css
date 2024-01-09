@@ -439,4 +439,11 @@ margin-right: 5%;
     font-size:1.4rem;
     color:#fff
   }
+  /* Navigation bar */
+  .nav-links ul li{
+    padding: 0.1rem 0.2rem;
+  }
+  .nav-links ul li a{
+    font-size: 1rem;
+  }
 }
